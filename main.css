@@ -24,3 +24,29 @@
   background-repeat: no-repeat;
   background-position: bottom 1rem right;
 }
+.corefeatureSection{
+  background-size: 100% 100%;
+  padding-top: 12rem;
+  padding-bottom:12rem;
+}
+.companiesList {
+  animation: 10s infinite linear moveImage;
+}
+
+
+@keyframes moveImage{
+  from{
+    top:0%;
+  } 
+  to{
+    top:-50%;
+    
+  }
+
+  
+  
+}
+.ctaSection{
+  background-size: 100% 100%;
+
+}
